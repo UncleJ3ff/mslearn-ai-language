@@ -1,5 +1,5 @@
-from dotenv import load_dotenv
-import os
+from azure.core.credentials import AzureKeyCredential
+from azure.ai.language.questionanswering import QuestionAnsweringClient
 
 # Import namespaces
 
